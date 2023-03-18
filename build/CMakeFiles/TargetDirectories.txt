@@ -1,0 +1,3 @@
+/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/build/CMakeFiles/sv.dir
+/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/build/CMakeFiles/edit_cache.dir
+/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/build/CMakeFiles/rebuild_cache.dir
