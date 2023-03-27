@@ -3,4 +3,6 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(sorting_visualizer VERSION 1.0)
-add_executable(sv main.cpp)
+add_executable(sv src/main.cpp)
+
+target_link_libraries(sv SDL2main SDL2)
