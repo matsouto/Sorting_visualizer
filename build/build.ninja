@@ -49,9 +49,24 @@ cmake_ninja_workdir = /home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/build
 
 build cmake_object_order_depends_target_sv: phony || CMakeFiles/sv.dir
 
-build CMakeFiles/sv.dir/src/main.cpp.o: CXX_COMPILER__sv_Debug /home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/src/main.cpp || cmake_object_order_depends_target_sv
-  DEP_FILE = CMakeFiles/sv.dir/src/main.cpp.o.d
+build CMakeFiles/sv.dir/main.cpp.o: CXX_COMPILER__sv_Debug /home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/main.cpp || cmake_object_order_depends_target_sv
+  DEP_FILE = CMakeFiles/sv.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++17
+  INCLUDES = -I/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/include
+  OBJECT_DIR = CMakeFiles/sv.dir
+  OBJECT_FILE_DIR = CMakeFiles/sv.dir
+
+build CMakeFiles/sv.dir/src/algorithms.cpp.o: CXX_COMPILER__sv_Debug /home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/src/algorithms.cpp || cmake_object_order_depends_target_sv
+  DEP_FILE = CMakeFiles/sv.dir/src/algorithms.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/include
+  OBJECT_DIR = CMakeFiles/sv.dir
+  OBJECT_FILE_DIR = CMakeFiles/sv.dir/src
+
+build CMakeFiles/sv.dir/src/init.cpp.o: CXX_COMPILER__sv_Debug /home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/src/init.cpp || cmake_object_order_depends_target_sv
+  DEP_FILE = CMakeFiles/sv.dir/src/init.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/include
   OBJECT_DIR = CMakeFiles/sv.dir
   OBJECT_FILE_DIR = CMakeFiles/sv.dir/src
 
@@ -63,7 +78,7 @@ build CMakeFiles/sv.dir/src/main.cpp.o: CXX_COMPILER__sv_Debug /home/matsouto/Do
 #############################################
 # Link the executable sv
 
-build sv: CXX_EXECUTABLE_LINKER__sv_Debug CMakeFiles/sv.dir/src/main.cpp.o
+build sv: CXX_EXECUTABLE_LINKER__sv_Debug CMakeFiles/sv.dir/main.cpp.o CMakeFiles/sv.dir/src/algorithms.cpp.o CMakeFiles/sv.dir/src/init.cpp.o
   FLAGS = -g
   LINK_LIBRARIES = -lSDL2main  -lSDL2
   OBJECT_DIR = CMakeFiles/sv.dir

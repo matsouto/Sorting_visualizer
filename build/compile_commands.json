@@ -1,7 +1,17 @@
 [
 {
   "directory": "/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/build",
-  "command": "/usr/bin/c++ -g -std=gnu++17 -o CMakeFiles/sv.dir/src/main.cpp.o -c /home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/src/main.cpp",
-  "file": "/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/src/main.cpp"
+  "command": "/usr/bin/c++ -I/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/include -g -std=gnu++17 -o CMakeFiles/sv.dir/main.cpp.o -c /home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/main.cpp",
+  "file": "/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/main.cpp"
+},
+{
+  "directory": "/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/build",
+  "command": "/usr/bin/c++ -I/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/include -g -std=gnu++17 -o CMakeFiles/sv.dir/src/algorithms.cpp.o -c /home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/src/algorithms.cpp",
+  "file": "/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/src/algorithms.cpp"
+},
+{
+  "directory": "/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/build",
+  "command": "/usr/bin/c++ -I/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/include -g -std=gnu++17 -o CMakeFiles/sv.dir/src/init.cpp.o -c /home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/src/init.cpp",
+  "file": "/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/src/init.cpp"
 }
 ]
