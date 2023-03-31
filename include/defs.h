@@ -1,10 +1,10 @@
 #pragma once
 
 /* Sets screen constants */
-#define WIDTH 640
-#define HEIGHT 480
-#define DELAY 5000
+#define WIDTH 500
+#define HEIGHT 500
+#define DELAY 1
 
 /* Sets program parameters */
-#define n_columns 50
-#define max_value 99
+#define n_columns 100
+#define max_value 100

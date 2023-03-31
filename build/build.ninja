@@ -97,15 +97,15 @@ build CMakeFiles/sv.dir/src/input.cpp.o: CXX_COMPILER__sv_Debug /home/matsouto/D
 
 
 #############################################
-# Link the executable sv
+# Link the executable bin/sv
 
-build sv: CXX_EXECUTABLE_LINKER__sv_Debug CMakeFiles/sv.dir/main.cpp.o CMakeFiles/sv.dir/src/global.cpp.o CMakeFiles/sv.dir/src/algorithms.cpp.o CMakeFiles/sv.dir/src/draw.cpp.o CMakeFiles/sv.dir/src/init.cpp.o CMakeFiles/sv.dir/src/input.cpp.o
+build bin/sv: CXX_EXECUTABLE_LINKER__sv_Debug CMakeFiles/sv.dir/main.cpp.o CMakeFiles/sv.dir/src/global.cpp.o CMakeFiles/sv.dir/src/algorithms.cpp.o CMakeFiles/sv.dir/src/draw.cpp.o CMakeFiles/sv.dir/src/init.cpp.o CMakeFiles/sv.dir/src/input.cpp.o
   FLAGS = -g
   LINK_LIBRARIES = -lSDL2main  -lSDL2
   OBJECT_DIR = CMakeFiles/sv.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = sv
+  TARGET_FILE = bin/sv
   TARGET_PDB = sv.dbg
 
 
@@ -158,6 +158,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build sv: phony bin/sv
+
 # =============================================================================
 # Folder targets.
 
@@ -166,7 +168,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/build
 
-build all: phony sv
+build all: phony bin/sv
 
 # =============================================================================
 # Built-in targets

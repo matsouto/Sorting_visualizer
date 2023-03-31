@@ -1,6 +1,4 @@
-#include "../include/defs.h"
 #include "../include/init.h"
-#include "../include/common.h"
 
 void initSDL(void)
 {
@@ -41,4 +39,6 @@ void initSDL(void)
         std::cout << "Failed to create renderer: " << SDL_GetError();
         exit(1);
     }
+
+    SDL_RenderSetScale(renderer, WIDTH / 100, HEIGHT / 100);
 }

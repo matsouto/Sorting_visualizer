@@ -1,51 +1,33 @@
 // TODO: Pesquisar como gerar formas com SDL2
 
-#include <SDL2/SDL.h>
-#include <iostream>
-#include <random>
-
-#include "include/defs.h"
+#include "include/global.h"
 #include "include/algorithms.h"
+#include "include/draw.h"
 #include "include/init.h"
+#include "include/input.h"
 
 /* Refs: https://www.parallelrealities.co.uk/tutorials/shooter/shooter1.php */
 
 int main()
 {
 
-    std::random_device rd; // Random engine chosen
-    std::uniform_int_distribution distribution(0, max_value);
+    initSDL();
+    clearScreen();
 
     std::vector<int> values = {};
-
-    // Generate the values to be sorted
-    for (int i = 0; i <= n_columns; i++)
-    {
-        int number = distribution(rd);
-        values.push_back(number);
-        std::cout << number << " ";
-    }
-
-    std::cout << std::endl;
+    values = generateArangedValues(100);
+    // values = generateRandomValues();
 
     values = insertionSort(values);
 
-    for (int i = 0; i <= values.size(); i++)
-    {
-        std::cout << values[i] << " ";
-    }
+    /* Pauses all SDL subsystems for a variable amount of milliseconds */
+    SDL_Delay(1000);
 
-    std::cout << std::endl;
+    /* Frees memory */
+    SDL_DestroyWindow(window);
 
-    initSDL();
+    /* Shuts down all SDL subsystems */
+    SDL_Quit();
 
-    // /* Pauses all SDL subsystems for a variable amount of milliseconds */
-    SDL_Delay(DELAY);
-
-    // /* Frees memory */
-    // SDL_DestroyWindow(window);
-
-    // /* Shuts down all SDL subsystems */
-    // SDL_Quit();
     return 0;
 }

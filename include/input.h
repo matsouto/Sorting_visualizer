@@ -1,3 +1,5 @@
-#include <SDL2/SDL.h>o
+#pragma once
+
+#include "global.h"
 
 void doInput(void);
