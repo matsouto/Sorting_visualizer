@@ -6,12 +6,27 @@
 },
 {
   "directory": "/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/build",
+  "command": "/usr/bin/c++ -I/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/include -g -std=gnu++17 -o CMakeFiles/sv.dir/src/global.cpp.o -c /home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/src/global.cpp",
+  "file": "/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/src/global.cpp"
+},
+{
+  "directory": "/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/build",
   "command": "/usr/bin/c++ -I/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/include -g -std=gnu++17 -o CMakeFiles/sv.dir/src/algorithms.cpp.o -c /home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/src/algorithms.cpp",
   "file": "/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/src/algorithms.cpp"
 },
 {
   "directory": "/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/build",
+  "command": "/usr/bin/c++ -I/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/include -g -std=gnu++17 -o CMakeFiles/sv.dir/src/draw.cpp.o -c /home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/src/draw.cpp",
+  "file": "/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/src/draw.cpp"
+},
+{
+  "directory": "/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/build",
   "command": "/usr/bin/c++ -I/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/include -g -std=gnu++17 -o CMakeFiles/sv.dir/src/init.cpp.o -c /home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/src/init.cpp",
   "file": "/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/src/init.cpp"
+},
+{
+  "directory": "/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/build",
+  "command": "/usr/bin/c++ -I/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/include -g -std=gnu++17 -o CMakeFiles/sv.dir/src/input.cpp.o -c /home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/src/input.cpp",
+  "file": "/home/matsouto/Documents/Code/Cpp/Sorting_Visualizer/src/input.cpp"
 }
 ]
